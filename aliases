@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# Core extensions
+alias ls="ls -A"
+alias ll="ls -lh"
+
+# Git aliases
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git duet-commit -v"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias gl="git log --decorate"
+
+# Utilities
+alias be="bundle exec"
+alias bx="bundle exec"
+
+#project
+alias webclient="cd ~/workspace/jp_callcenter_studio_new"
+alias ccs="cd ~/workspace/jp_callcenter_ccm_api"
+alias dir="cd ~/workspace/jp_callcenter_dir_api"
+alias gw="cd ~/workspace/jp_callcenter_studio_gateway"
+alias workspace="cd ~/workspace"
+
+alias cfdev1="cf login -a https://api.np1s.paas.bip.jp.fid-intl.com -u a484017 -s dev"
+alias cfdev2="cf login -a https://api.np2s.paas.bip.jp.fid-intl.com -u a484017 -s dev"
+alias jdk6="export JAVA_HOME=$JAVA_6_HOME"  
+alias jdk7="export JAVA_HOME=$JAVA_7_HOME"  
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME" 
