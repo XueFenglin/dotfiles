@@ -7,7 +7,7 @@ Here are a handful of simple dotfiles.
 First, clone the repo:
 
 ```
-git clone https://github.com/pivotal-tokyo/dotfiles.git
+git clone https://github.com/XueFenglin/dotfiles.git
 ```
 
 After navigating to the repo's root directory, link the `bash_profile` and `aliases` with the handy `install.sh` script.
