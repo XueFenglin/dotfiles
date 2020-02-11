@@ -56,8 +56,8 @@ YELLOW='\[\e[0;33m\]'
 
 # assign new colorized prompt
 export PS1="$YELLOW[$CURRENT_WORKING_DIR@$HOSTNAME$GIT_BRANCH_NAME$RED$DIRTY_STATE$YELLOW]\$$NO_COLOR "
-export http_proxy=http://jpproxy-osk-fmn.bip.jp.fid-intl.com:8000/
-export https_proxy=http://jpproxy-osk-fmn.bip.jp.fid-intl.com:8000/
+
+
 export ALL_PROXY=$http_proxy
 export VLC_PATH=/Applications/VLC.app/Contents/MacOS/lib
 export VLC_PLUGIN_PATH=/Applications/VLC.app/Contents/MacOS/plugins
